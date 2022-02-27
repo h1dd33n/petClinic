@@ -8,6 +8,7 @@
         <version>2.6.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+<<<<<<< HEAD
     <groupId>com.petclinic</groupId>
     <artifactId>petclinic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -15,10 +16,26 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
+=======
+    <groupId>com.projects</groupId>
+    <artifactId>pet-clinic</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>pet-clinic</name>
+    <description>Demo project for Spring Boot</description>
+    <properties>
+        <java.version>1.8</java.version>
+>>>>>>> e236870b6ba3c08acc1446343d19c11f2c4be0bd
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+>>>>>>> e236870b6ba3c08acc1446343d19c11f2c4be0bd
             <artifactId>spring-boot-starter-data-jdbc</artifactId>
         </dependency>
         <dependency>
