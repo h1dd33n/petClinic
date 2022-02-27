@@ -53,6 +53,7 @@ local.properties
 # Intellij
 ######################
 .idea/
+.DS_Store
 *.iml
 *.iws
 *.ipr
